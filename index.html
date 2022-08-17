@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="assets/style/normalize.css">
+	<link rel="stylesheet" href="assets/style/style.css">
+
+</head>
+
+<body>
+	<header class="header">
+		<h1 class="header-title">Добро пожаловать!</h1>
+		
+	</header>
+
+	<main class="main">
+<div class="color" id="change_background" onclick="background()">Кликни на меня</div>
+
+<div class="welcome" id="meetUser">
+	<button id="helloBtn" class="welcome-btn" >Приятно познакомиться!
+	</button>
+	<input  type="text" class="textarea" id="nameArea">
+	<button id="clearButton" class="clear-btn">Очистить</button>
+</div>
+ 
+<div id="result"></div>
+
+<div class="slider">
+	<img id="myImg" src="assets/img/mountainsClouds.jpg">	
+</div>
+
+<div class="slider-btn">
+	<button class="prev-btn" onclick="document.getElementById('myImg').src='assets/img/mountainsFlowers.jpg'">Previous</button>
+	<button class="next-btn" onclick="document.getElementById('myImg').src='assets/img/mountainsGrass.jpg'">Next</button>
+</div>
+
+
+
+	<script src="assets/script/script.js"></script>
+</body>
+
+</html>

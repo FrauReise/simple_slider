@@ -1,0 +1,71 @@
+.welcome {
+    display: flex;
+}
+
+.welcome-btn {
+    justify-self: center;
+    margin-left: 35%;
+    width: 10rem;
+    height: 5rem;
+    font-family: 'Prompt-Medium', Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    text-align: center;
+    background-color: #fc0;
+    border: none;
+}
+
+.clear-btn {
+    width: 8rem;
+    height: 5rem;
+    font-family: 'Prompt-Medium', Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    text-align: center;
+    background-color: rgb(202, 200, 200);
+    border: none;
+}
+
+.slider,
+.slider-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.prev-btn,
+.next-btn {
+    width: 5rem;
+    height: 2rem;
+    margin: 1%;
+    font-family: 'Prompt-Medium', Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    text-align: center;
+    background-color: rgb(202, 200, 200);
+    border: none;
+}
+
+
+@font-face {
+    font-family: 'Prompt-Medium';
+    src: url(/assets/fonts/Prompt-Medium.ttf);
+}
+
+.header-title,
+.subtitle,
+.color {
+    font-family: 'Prompt-Medium', Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.header {
+    background-color: rgb(235, 235, 235);
+}
+
+.textarea {
+    width: 10rem;
+    height: 75px;
+}
+
