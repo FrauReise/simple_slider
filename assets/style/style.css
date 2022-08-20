@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Prompt-Medium';
+    src: url("assets/fonts/Prompt-Medium.ttf") format("ttf");
+}
+
 .welcome {
     display: flex;
 }
@@ -45,11 +50,6 @@
     border: none;
 }
 
-
-@font-face {
-    font-family: 'Prompt-Medium';
-    src: url(/assets/fonts/Prompt-Medium.ttf);
-}
 
 .header-title,
 .subtitle,
